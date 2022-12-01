@@ -1,0 +1,68 @@
+.header, .btn, .video-container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(17, 0, 255);
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(51, 13, 221);
+}
+
+#one, #two{
+    padding: 20px;
+    background-color: rgb(20, 116, 224);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#myImage{
+    inline-size: 100ch;
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+
+@media all and (max-width: 1024px){
+   
+h1,h2,#one, #two {
+    margin-top: 10px;
+}
+#one, #two{
+    padding: 15px;
+}
+}
+
+@media all and (max-width: 800px){
+    h1,h2{
+        font-size: 25px;
+    }
+
+    #one, #two{
+        padding: 15px;
+    }
+}
+
+@media all and (max-width: 500px){
+
+    #one, #two{
+        padding: 15px;
+        font-size: 15px;
+    }
+    
+}
